@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Rock Paper Scissors Game by Jon Miller</title>
+  <link rel="stylesheet" href='css/main.css'>
+</head>
+
+<body>
+  <div class='game-box'>
+    <h1>Rock Paper Scissors</h1>
+    <h2>Select one to start the game against the computer. Best 2 out of 3.</h2>
+    <div class="button-box">
+      <button type="button" id="rock">Rock</button>
+      <button type="button" id="paper">Paper</button>
+      <button type="button" id="scissors">Scissors</button>
+    </div>
+    <div class='score-box'>
+      <div id='player-score'>
+        <h3>You</h3>
+        <h3 id='score'>0</h3>
+        <h3 id='player-choice'></h3>
+      </div>
+      <div id='computer-score'>
+        <h3>Computer</h3>
+        <h3 id='comp-score'>0</h3>
+        <h3 id='computer-choice'></h3>
+      </div>
+    </div>
+    <div>
+      <h2 id="results"></h2>
+    </div>
+  </div>
+</body>
+<script src='scripts/iteration.js' type="text/javascript"></script>
+
+</html>
